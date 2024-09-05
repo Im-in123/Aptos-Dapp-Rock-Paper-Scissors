@@ -32,10 +32,10 @@ To run this project locally, follow these steps:
 ### Clone the Repository
 
 ```bash
-- `git clone https://github.com/Im-in123/aptos-dapp-rock-paper-scissors`
-- `cd my-aptos-dapp`
-- `npm install`
-- `npm run dev`
+ git clone https://github.com/Im-in123/aptos-dapp-rock-paper-scissors
+ cd aptos-dapp-rock-paper-scissors
+ npm install
+ npm run dev
 ```
  
 
