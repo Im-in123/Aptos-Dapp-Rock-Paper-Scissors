@@ -94,3 +94,4 @@ The smart contract is deployed on the Aptos testnet:
 - **Added Score Tracking**: The updated contract now tracks and maintains the player’s wins, losses, and games played with the `GameScore` struct.
 - **Simplified Initialization**: The `start_game` function now directly initializes the game state and also initializes `GameScore` if it does not exist.
 - **Removed Manual Reset**: The contract no longer requires manual game state reset functionality as it now initializes or updates the game state directly.
+- **Added Checks after Game Finalization**: The contract no longer allow unathorized changes to player or computer moves to change game outcome after game result is finalized.  
