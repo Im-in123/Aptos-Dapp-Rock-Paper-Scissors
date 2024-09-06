@@ -64,7 +64,7 @@ The game interacts with the Aptos blockchain via a Move contract, which includes
 
 The smart contract is deployed on the Aptos testnet:
 0x3d44defa4494387906bb88b5f1f9ff1a0c1d4d59d036e709c06b0024a979f111
-
+Theres offline copy of the code in  /contract/sources/RockPaperScissors/RockPaperScissors.move
 
 ## Smart Contract Functions
 
