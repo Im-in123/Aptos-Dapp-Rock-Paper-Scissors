@@ -96,3 +96,22 @@ The smart contract is deployed on the Aptos testnet:
 - **Simplified Initialization**: The `start_game` function now directly initializes the game state and also initializes `GameScore` if it does not exist.
 - **Removed Manual Reset**: The contract no longer requires manual game state reset functionality as it now initializes or updates the game state directly.
 - **Added Checks after Game Finalization**: The contract no longer allow unathorized changes to player or computer moves to change game outcome after game result is finalized.  
+
+
+
+
+
+
+## What Move commands are available in the Boilerplate template?
+
+The tool utilizes [aptos-cli npm package](https://github.com/aptos-labs/aptos-cli) that lets us run Aptos CLI in a Node environment.
+
+Some commands are built-in the template and can be ran as a npm script, for example:
+
+- `npm run move:init` - a command to initialize an account to publish the Move contract and to configure the development environment
+- `npm run move:publish` - a command to publish the Move contract
+- `npm run move:test` - a command to run Move unit tests
+- `npm run move:compile` - a command to compile the Move contract
+- `npm run deploy` - a command to deploy the dapp to Vercel
+
+For all other available CLI commands, can run `npx aptos` and see a list of all available commands.
