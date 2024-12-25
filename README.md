@@ -32,8 +32,8 @@ To run this project locally, follow these steps:
 ### Clone the Repository
 
 ```bash
- git clone https://github.com/Im-in123/aptos-dapp-rock-paper-scissors
- cd aptos-dapp-rock-paper-scissors
+ git clone https://github.com/Im-in123/Aptos-Dapp-Rock-Paper-Scissors
+ cd Aptos-Dapp-Rock-Paper-Scissors
  npm install
  npm run dev
 ```
